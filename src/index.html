@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="firstpage">
+        <div class="container">
+            <nav>
+                <ul class="menu">
+                    <li class="menu_item"><a href="#promo" class="menu_link">Home</a></li>
+                    <li class="menu_item"><a href="#about" class="menu_link">About Us</a></li>
+                    <li class="menu_item"><a href="#trading_view" class="menu_link">Frequent questions</a></li>
+                    <li class="menu_item"><a href="#faq" class="menu_link">Redeem code</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="promo" id="promo">
+        <div class="wrapper">
+            <div class="promo_row">
+                <div class="row_first">
+                    <div class="promo_circle">
+                        <img class="promo_circle_img" id="circle" src="./img/ellipse.png" alt="ellipse">
+                    </div>
+                    <div class="promo_title">ML-Based Market<br>
+                        PREDICTIONS
+                    </div>
+                </div>
+                <div class="row_third">
+                    <div>
+                        <img class="promo_img" src="./img/picture_2.png" alt="promo" >
+                    </div>
+                </div>
+            </div>
+            <div class="vector_down">
+                <a href="#trading_view"><img src="./img/vector.png" alt="vector"></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="trading_view" id="trading_view">
+        <div class="chart-container">
+            <div id="tv_chart_container"></div>
+        </div>
+        <div class="form-container">
+            <form id="trading_view_form">
+            <div class="form-group">
+                <label for="ticker">Ticker</label>
+                <input id="ticker" name="ticker" value="BTC/USDT">
+                </input>
+            </div>
+            <div class="form-group">
+                <label for="interval">Interval</label>
+                <select id="interval" name="interval">
+                    <option value="D">1d</option>
+                    <option value="3D">3d</option>
+                    <option value="W">1w</option>
+                    <option value="1M">1m</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="start-time">Start</label>
+                <input type="date" id="start-time" name="start-time">
+            </div>
+            <div class="form-group">
+                <label for="end-time">End</label>
+                <input type="date" id="end-time" name="end-time">
+            </div>
+            <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="wrapper">
+            <div class="container">
+                <div class="descr">
+                    <div class="decr_title">
+                        <div class="decr_title-text">About us</div>
+                    </div>
+                    <div class="subdescr">It is a project with a goal of helping new investors to choose their vector in the stock market. Our team developed system that<br> 
+                        combines ML algorithm for time series prediction and knowledge about stock market.</div>
+                </div>
+                <div class="include">
+                    <div class="include_title">Our core services include:</div>
+                    <div class="include_wrapper">
+                        <div class="include_block">
+                            <div class="block_logo"><img src="./img/logo1.png" alt="logo"></div>
+                            <div class="block_title">Project idea and<br> background</div>
+                            <div class="block_descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </div>
+                        <div class="include_block">
+                            <div class="block_logo"><img src="./img/logo2.png" alt="logo"></div>
+                            <div class="block_title">Who should use it</div>
+                            <div class="block_descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </div>
+                        <div class="include_block">
+                            <div class="block_logo"><img src="./img/logo3.png" alt="logo"></div>
+                            <div class="block_title">What you receive from<br> using our product </div>
+                            <div class="block_descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn_redeem">Redeem code</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq" id="faq">
+        <div class="container">
+          <h2 class="faq_title">Answers to Common Questions</h2>
+          <div class="faq_wrapper">
+              <div class="question">
+                <h3>Question 1</h3>
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div class="answer">
+                <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis saepe, magni nisi distinctio animi iusto quas provident repellat neque. Qui laboriosam natus blanditiis vero sapiente cumque fugiat aut nihil!
+                </p>
+              </div>
+          </div>
+          <div class="faq_wrapper">
+              <div class="question">
+                <h3>Question 2</h3>
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div class="answer">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis saepe, magni nisi distinctio animi iusto quas provident repellat neque. Qui laboriosam natus blanditiis vero sapiente cumque fugiat aut nihil!
+                </p>
+              </div>
+          </div>
+          <div class="faq_wrapper">
+              <div class="question">
+                <h3>Question 3</h3>
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div class="answer">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis saepe, magni nisi distinctio animi iusto quas provident repellat neque. Qui laboriosam natus blanditiis vero sapiente cumque fugiat aut nihil!
+                </p>
+              </div>
+          </div>
+          <div class="faq_wrapper">
+              <div class="question">
+                <h3>Question 4</h3>
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div class="answer">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quis saepe, magni nisi distinctio animi iusto quas provident repellat neque. Qui laboriosam natus blanditiis vero sapiente cumque fugiat aut nihil!
+                </p>
+              </div>
+          </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
